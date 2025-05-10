@@ -12,7 +12,7 @@
     "SESSION_ID": {
       "description": "Put your session-id here. Must Start with 'PRINCE-MDX~'",
       "required": true,
-      "value": ""
+      "value": "PRINCE-MDX~GALZTYuk7jRwCXO5kcRu"
     },  
     "MODE": {
       "description": "Set Mode  to 'public' to work in all chats only, 'inbox' to work in pm(inbox) chats only or 'private' to work for you only. Default is 'public'. You can set up this later using .mode",
@@ -27,12 +27,12 @@
     "OWNER_NUMBER": {
       "description": "Put only one Owner Number Here ie 237xxxxx",
       "required": true,
-      "value": "237677224245"
+      "value": "233203189856"
     },
     "ANTI_DELETE": {
       "description": "Can be set to 'inboxonly' to recover for personal chats only, 'chatsonly' to recover for groups and personal chats only or 'true' to recover all chats and status updates. Default is 'false'. You can set up this later using .antidelete",
-      "required": false,
-      "value": "inboxonly"
+      "required": true,
+      "value": "chatsonly"
     },
     "SUDO_NUMBERS": {
       "description": "Put Sudo Numbers separated by comma Here ie 2347xxxx,2357xxxxx,920xxxxx. Sudos have same rights as owner(can command the bot). if you don't want leave the space empty",
@@ -47,12 +47,12 @@
     "AUTO_READ_STATUS": {
       "description": "Make it 'true' if you want bot to view statuses. You can set up this later using .autoview",
       "required": true,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_LIKE_STATUS": {
       "description": "Make it 'true' if you want bot to read and like statuses. You can set up this later using .autolike",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_LIKE_EMOJIS": {
       "description": "Input your custom status like emoji(s) else leave to use default emojis. Only works if autolike status is 'true'",
@@ -77,7 +77,7 @@
     "PRESENCE": {
       "description": "Put 'online' for always online, 'typing' for always typing a message, 'recording' for always recording audio or 'null' to maintain your presence. You can set up this later using .presence",
       "required": true,
-      "value": "online"
+      "value": "null"
     },
     
     "ANTILINK": {
@@ -88,12 +88,12 @@
     "ANTIBAD": {
       "description": "Enter 'true' to automatically delete bad words sent by users in groups. You can set up this later using .antibad",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "BAD_WORDS": {
       "description": "Enter bad words separated by a comma(will be deleted if ANTIBAD is set to true)",
       "required": false,
-      "value": "fuck, pussy, anus, idiot"
+      "value": "fuck, pussy, anus, idiot, stupid, foolish"
     },
     "AUTO_AUDIO": {
       "description": "Put 'true' if you want the bot to automatically send audio(auto voice) in chat if you use  words such as: hi, hello, good morning, good night. You can set up this later using .autoaudio",
