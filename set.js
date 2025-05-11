@@ -6,6 +6,7 @@ const fs = require('fs'),
 
 
 global.sessionServer = "https://backend-sessione.onrender.com";
+global.session = "https://session-id-2jrz.onrender.com"; 
  
  
 module.exports = {

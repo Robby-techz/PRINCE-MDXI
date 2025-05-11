@@ -12,7 +12,7 @@
 <p align='center'>
 </p>
 
-> **CURRENT BOT VERSION ➜ `2.0.0 ⚡`**
+> **CURRENT BOT VERSION ➜ `3.0.0 ⚡`**
 ---
 
 ```
