@@ -12,7 +12,7 @@
     "SESSION_ID": {
       "description": "Put your session-id here. Must Start with 'PRINCE-MDX~'",
       "required": true,
-      "value": "PRINCE-MDX~GALZTYuk7jRwCXO5kcRu"
+      "value": "PRINCE-MDX~DDYVLVvNb0r9eAjUD5N0"
     },  
     "MODE": {
       "description": "Set Mode  to 'public' to work in all chats only, 'inbox' to work in pm(inbox) chats only or 'private' to work for you only. Default is 'public'. You can set up this later using .mode",
@@ -32,7 +32,7 @@
     "ANTI_DELETE": {
       "description": "Can be set to 'inboxonly' to recover for personal chats only, 'chatsonly' to recover for groups and personal chats only or 'true' to recover all chats and status updates. Default is 'false'. You can set up this later using .antidelete",
       "required": true,
-      "value": "chatsonly"
+      "value": "true"
     },
     "SUDO_NUMBERS": {
       "description": "Put Sudo Numbers separated by comma Here ie 2347xxxx,2357xxxxx,920xxxxx. Sudos have same rights as owner(can command the bot). if you don't want leave the space empty",
@@ -42,7 +42,7 @@
     "CHAT_BOT": {
       "description": "Put value to 'true' to enablle for all chats or 'inbox' to ebanle in pm(inbox) chats only or 'groups' to enable in groups only else false. You can set up this later using .chatbot",
       "required": false,
-      "value": ""
+      "value": "false"
     },
     "AUTO_READ_STATUS": {
       "description": "Make it 'true' if you want bot to view statuses. You can set up this later using .autoview",
