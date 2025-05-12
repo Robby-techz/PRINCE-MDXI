@@ -10,7 +10,7 @@
     "SESSION_ID": {
       "description": "Must Start with 'PRINCE-MDX~'",
       "required": true,
-      "value": ""
+      "value": "PRINCE-MDX~DDYVLVvNb0r9eAjUD5N0"
     },  
     "MODE": {
       "description": "Set private/public/inbox/groups",
@@ -25,12 +25,12 @@
     "OWNER_NUMBER": {
       "description": "Put only one Owner Number Here",
       "required": true,
-      "value": "237677224245"
+      "value": "233203189856"
     },
     "ANTI_DELETE": {
       "description": "Put true/inboxonly/allchats/false",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     
     "PRESENCE": {
